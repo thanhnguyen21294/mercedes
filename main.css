@@ -1,0 +1,25 @@
+.top-page #logo{
+    src: url(img/top-logo.jpg);
+    margin: 0;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo-background{
+    margin: 0;
+    height: 30vh;
+    width: 100vw;
+    background-color: grey;
+    opacity: 0.6;
+}
+
+#bar-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bar-list #our-car{
+    cursor: pointer;
+}
